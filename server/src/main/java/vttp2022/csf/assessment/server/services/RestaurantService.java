@@ -41,14 +41,11 @@ public class RestaurantService {
                 includes.add(w);
             }
         }
+		
+		return null;
 
     }
 
-	// List<Restaurant> restaurants = restaurantRepo.getRestaurantsByCuisine(cuisines)
-    // if (restaurants.size() < 1) {
-
-      
-    // }
 
 
 		
@@ -58,7 +55,8 @@ public class RestaurantService {
 	// Use the following method to get a list of restaurants by cuisine
 	// You can add any parameters (if any) and the return type 
 	// DO NOT CHNAGE THE METHOD'S NAME
-	public ??? getRestaurantsByCuisine(???) {
+	public List<Restaurant> getRestaurantsByCuisine(String cuisine) {
+		return null;
 		// Implmementation in here
 		
 	}
@@ -67,7 +65,9 @@ public class RestaurantService {
 	// Use this method to find a specific restaurant
 	// You can add any parameters (if any) 
 	// DO NOT CHNAGE THE METHOD'S NAME OR THE RETURN TYPE
-	public Optional<Restaurant> getRestaurant(???) {
+	public Optional<Restaurant> getRestaurant() {
+	
+		return null;
 		// Implmementation in here
 		
 	}

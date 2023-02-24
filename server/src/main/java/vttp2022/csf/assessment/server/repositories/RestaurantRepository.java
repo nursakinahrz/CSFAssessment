@@ -43,6 +43,7 @@ public class RestaurantRepository {
 	//   { cuisine: 'American ' },
 	//   { cuisine: 'Delicatessen' }
 	public List<Restaurant> getCuisines() {
+		return null;
 		// Implmementation in here
 
 	}
@@ -98,6 +99,7 @@ public class RestaurantRepository {
 // 		}
 // 	  ],
 	public List<Restaurant> getRestaurantsByCuisine(String cuisines) {
+		return null;
 		// Implmementation in here
 
 	}
@@ -110,7 +112,8 @@ public class RestaurantRepository {
 	
 	//  Mongo native query: 
 	//
-	public Optional<Restaurant> getRestaurant(???) {
+	public Optional<Restaurant> getRestaurant() {
+		return null;
 		// Implmementation in here
 		
 	}

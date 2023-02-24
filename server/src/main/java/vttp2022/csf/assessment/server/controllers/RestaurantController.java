@@ -24,7 +24,7 @@ private RestaurantService restaurantSvc;
     @GetMapping(path="/api/{cuisine}/restaurants")
     public ResponseEntity<String> getRestaurantByCuisine(@PathVariable String cuisine) {
 
-        List<Restaurant> restaurants = restaurantSvc.getRestaurantByCuisine(cuisine)
+        List<Restaurant> restaurants = restaurantSvc.getRestaurantsByCuisine(cuisine);
 
         return null;
 

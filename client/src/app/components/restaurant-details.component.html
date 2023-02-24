@@ -26,10 +26,10 @@
 </tr>
 
 
-<form>
+<form [formGroup]="form" (ngSubmit)="submitForm()">
 <tr>
 <td>Name:</td>
-<input type="text" size="50" id="name" placeholder="Your name"/>
+<input type="text" size="50" id="name" placeholder="Your name" formControlName="name"/>
 <td>
 
 </td>
