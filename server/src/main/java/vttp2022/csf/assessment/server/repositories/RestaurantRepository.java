@@ -111,7 +111,45 @@ public class RestaurantRepository {
 	// Write the Mongo native query above for this method
 	
 	//  Mongo native query: 
-	// 
+	// db.restaurant.find({name: "Ajisen Ramen"})
+// [
+// 	{
+// 	  _id: ObjectId("63f8209aef85c6554483e699"),
+// 	  address: {
+// 		building: '14',
+// 		coord: [ -73.9985052, 40.7141563 ],
+// 		street: 'Mott Street',
+// 		zipcode: '10013'
+// 	  },
+// 	  borough: 'Manhattan',
+// 	  cuisine: 'Asian',
+// 	  grades: [
+// 		{
+// 		  date: ISODate("2014-04-08T00:00:00.000Z"),
+// 		  grade: 'A',
+// 		  score: 12
+// 		},
+// 		{
+// 		  date: ISODate("2013-04-05T00:00:00.000Z"),
+// 		  grade: 'A',
+// 		  score: 12
+// 		},
+// 		{
+// 		  date: ISODate("2012-02-07T00:00:00.000Z"),
+// 		  grade: 'A',
+// 		  score: 12
+// 		},
+// 		{
+// 		  date: ISODate("2011-07-07T00:00:00.000Z"),
+// 		  grade: 'A',
+// 		  score: 9
+// 		}
+// 	  ],
+// 	  name: 'Ajisen Ramen',
+// 	  restaurant_id: '40827287'
+// 	}
+//   ]
+  
 	public Optional<Restaurant> getRestaurant() {
 		return null;
 		// Implmementation in here
