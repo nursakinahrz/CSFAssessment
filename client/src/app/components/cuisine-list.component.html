@@ -1,5 +1,13 @@
 <h1>List of Cuisines</h1>
 
+<h2>List of {{ cuisines }} Restaurants </h2>
+
+  <div class="restaurant-list" *ngFor="let cuisine of cuisines">
+    <h4>{{ cuisines }}</h4>
+  </div>
+
+
+<button [routerLink]="['/']">Back</button>
 
 
 
