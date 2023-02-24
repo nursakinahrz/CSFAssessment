@@ -22,13 +22,14 @@ public class RestaurantController {
 private RestaurantService restaurantSvc;
 
     @GetMapping(path="/api/{cuisine}/restaurants")
-    public ResponseEntity<String> getRestaurantByCuisine(@PathVariable String cuisine) {
+    public ResponseEntity<String> getRestaurantsByCuisine(@PathVariable String cuisine) {
 
         List<Restaurant> restaurants = restaurantSvc.getRestaurantsByCuisine(cuisine);
 
         return null;
 
-
     }
+
+    
     
 }

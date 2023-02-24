@@ -23,13 +23,13 @@ public class S3Service {
     private AmazonS3 s3Client;
 
     public String getMap(MultipartFile file) throws IOException{
-        // User data
+      
         Map<String, String> userData = new HashMap<>();
         userData.put("name", "nur");
         userData.put("uploadTime", new Date().toString());
         userData.put("originalFilename", file.getOriginalFilename());
         
-        // Metadata
+       
         ObjectMetadata metadata = new ObjectMetadata();
         metadata.setContentType(file.getContentType());
         metadata.setContentLength(file.getSize());

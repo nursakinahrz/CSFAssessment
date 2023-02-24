@@ -1,7 +1,9 @@
 package vttp2022.csf.assessment.server.repositories;
 
+import org.springframework.stereotype.Repository;
 import org.springframework.web.multipart.MultipartFile;
 
+@Repository
 public class MapCache {
 
 	// TODO Task 4
