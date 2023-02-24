@@ -8,6 +8,7 @@ import { CuisineListComponent } from './components/cuisine-list.component';
 import { RestaurantCuisineComponent } from './components/restaurant-cuisine.component';
 import { RestaurantDetailsComponent } from './components/restaurant-details.component';
 import { AppRoutingModule } from './components/app.routing.module';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { AppRoutingModule } from './components/app.routing.module';
     BrowserModule,
     HttpClientModule,
     AppRoutingModule,
+    ReactiveFormsModule
 
 
 
