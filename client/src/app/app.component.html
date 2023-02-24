@@ -1,4 +1,12 @@
 <!-- You may modify this HTML -->
 
+
+<div class="box">
+    <button type="button" [routerLink]="['/cuisines']">View 1</button>
+    <button type="button" [routerLink]="['/cuisines/restaurant']">View 2</button>
+    <button type="button" [routerLink]="['/restaurants/restaurantId']">View 3</button>
+</div>
+
+
 <app-restaurant-details></app-restaurant-details>
 <router-outlet></router-outlet>
