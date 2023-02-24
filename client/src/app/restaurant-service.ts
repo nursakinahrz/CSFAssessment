@@ -41,8 +41,8 @@ export class RestaurantService {
 	// Use this method to find a specific restaurant
 	// You can add any parameters (if any) 
 	// DO NOT CHNAGE THE METHOD'S NAME OR THE RETURN TYPE
-	// public getRestaurant(): Promise<Restaurant> {
-		// Implememntation in here
+	public getRestaurant(): Promise<Restaurant> {
+		Implememntation in here
 
 		// return lastValueFrom
 		// (this.httpClient.get)
@@ -54,8 +54,8 @@ export class RestaurantService {
 	// TODO Task 5
 	// Use this method to submit a comment
 	// DO NOT CHANGE THE METHOD'S NAME OR SIGNATURE
-	// public postComment(comment: Comment): Promise<any> {
+	public postComment(comment: Comment): Promise<any> {
 		// Implememntation in here
 
-// 	}
-// }
+	}
+}
